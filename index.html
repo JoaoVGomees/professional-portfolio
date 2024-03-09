@@ -1,99 +1,329 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dev João</title>
-    <link rel="stylesheet" href="./src/styles/styles.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <img src="./src/images/icones/logo-header.svg" alt="Logo header">
-            <ul>
-                <li>Home</li>
-                <li>Sobre mim</li>
-                <li>Portfólio</li>
-                <li>Skills</li>
-                <li>Contato</li>
-            </ul>
-        </nav>
-
-        <section>
-            <p>Saudações</p>
-            <h1>João</h1>
-            <p>Front-end developer</p>
-            <ul>
-                <li><a href="https://www.linkedin.com/in/joão-vitor-gomes-pereira-7bb079280" target="_blank"><img src="https://skillicons.dev/icons?i=linkedin" alt="Logo Linkedin" height="40"></a></li>
-                <li><a href="https://github.com/JoaoVGomees" target="_blank"><img src="https://skillicons.dev/icons?i=github" alt="Logo Github" height="40"></a></li>
-                <li><a href="https://www.instagram.com/__joao78/" target="_blank"><img src="https://skillicons.dev/icons?i=instagram" alt="Logo Instagram" height="40"></a></li>
-            </ul>
-        </section>  
+    <link rel="stylesheet" href="./src/styles/styles.css" />
+  </head>
+  <body>
+    <div id="sem-footer">
+        <header id="home-section">
+          <section id="section-nav">
+            <nav>
+              <img
+                src="./src/images/icones/logo-header.svg"
+                alt="Logo header"
+                height="40"
+              />
+              <ul>
+                <li><a href="#home-section" id="button-home-header">Home</a></li>
+                <li><a href="#sobre-mim-main">Sobre mim</a></li>
+                <li><a href="#tecnologias-section">Skills</a></li>
+                <li><a href="#projetos-section">Projetos</a></li>
+                <li><a href="#contato-section">Contato</a></li>
+              </ul>
+            </nav>
+          </section>
+          <section id="sobre-mim-header">
+            <section id="apresentacao">
+              <h1>João Vitor</h1>
+              <p>Front-end developer</p>
+              <ul>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/joão-vitor-gomes-pereira-7bb079280"
+                    target="_blank"
+                    ><img
+                      src="https://skillicons.dev/icons?i=linkedin"
+                      alt="Logo Linkedin"
+                      height="30"
+                  /></a>
+                </li>
+                <li>
+                  <a href="https://github.com/JoaoVGomees" target="_blank"
+                    ><img
+                      src="https://skillicons.dev/icons?i=github"
+                      alt="Logo Github"
+                      height="30"
+                  /></a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/__joao78/" target="_blank"
+                    ><img
+                      src="https://skillicons.dev/icons?i=instagram"
+                      alt="Logo Instagram"
+                      height="30"
+                  /></a>
+                </li>
+              </ul>
+            </section>
+            <section id="img-section">
+                <img
+                  id="foto"
+                  src="./src/images/joao.jpeg"
+                  alt="Alguma foto minha ou algm coisa"
+                />
+            </section>
+            <section class="zap">
+              <a
+                href="https://api.whatsapp.com/send?phone=5511961495575&text=&type=phone_number&app_absent=0"
+                target="_blank"
+              >
+                <img
+                  src="src/images/icones/zap-icone.png"
+                  alt="Logo Whatsapp"
+                  height="17"
+                />
+                Whatsapp
+              </a>
+            </section>
+          </section>
+        </header>
+        <main>
+          <section id="sobre-mim-main">
+            <article>
+              <img id="foto" src="./src/images/dog5.jpeg" alt="Foto" />
+            </article>
+            <article>
+              <h2>João Vitor Gomes Pereira</h2>
+              <p>
+                Me chamo João Vitor Gomes Pereira, mas pode me chamar apenas de
+                João. Prazer!
+              </p>
+              <p>
+                Cursando Desenvolvimento de Sistemas no Senai e cursando ADS na
+                Universidade Sumaré.
+              </p>
+            </article>
+          </section>
+          <section id="titulo">
+              <h2>Trabalhos e projetos</h2>
+          </section>
+          <section id="projetos-section">
         
-        <section>
-            <img src="#" alt="Alguma foto minha ou algm coisa">
-        </section>
-
-        <section>
-            <button>Baixar CV</button>
-            <a href="https://api.whatsapp.com/send?phone=5511961495575&text=&type=phone_number&app_absent=0" target="_blank">
-                <img src="src/images/icones/telephone.png" alt="Logo Whatsapp" height="10"> Whatsapp
-            </a>
-        </section>
-    </header>
-
-    <main>
-        <section>
-            <article>
-                <img src="" alt="Foto minha agora">
+            <article class="projeto">
+              <h3>Página de Notas</h3>
+              <p>
+                O projeto web em HTML, CSS e JavaScript calcula médias de notas e
+                define o status do aluno (aprovado, recuperação ou reprovado).
+                Possui recursos para adicionar alunos, inserir notas, calcular
+                médias e ordenar alunos por média ou ordem alfabética. Os resultados
+                são atualizados em tempo real na interface do usuário.
+              </p>
+              <h4>Tecnologias Usadas</h4>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Bootstrap</li>
+                <li>JavaScript</li>
+              </ul>
+              <a href="https://joaovgomees.github.io/pagina-notas/" target="_blank"
+                >Acessar</a
+              >
             </article>
-            <article>
-                <p>🐱‍👤 Sobre mim!</p>
-                <h2>João Vitor</h2>
-                <p>Me chamo João Vitor Gomes Pereira, mas pode me chamar apenas de João. Prazer!</p>
-                <p>Cursando Desenvolvimento de Sistemas no Senai e cursando ADS na Universidade Sumaré.</p>
+            <article class="projeto">
+              <h3>To do List</h3>
+              <p>
+                O projeto é uma aplicação de lista de tarefas desenvolvida em Java
+                com a biblioteca JFrame para a interface gráfica. Os usuários podem
+                adicionar, editar, excluir e marcar tarefas como concluídas ou não.
+                A aplicação oferece uma interface gráfica intuitiva e é executada
+                com o JDK.
+              </p>
+              <h4>Tecnologias Usadas</h4>
+              <ul>
+                <li>Java</li>
+              </ul>
+              <a href="https://github.com/JoaoVGomees/to-do-list" target="_blank"
+                >Acessar</a
+              >
             </article>
-        </section>
-        <section>
-            <h2>Trabalhos e projetos.</h2>
-            <section>
-                <article>
-                    <h3>Nome do projeto</h3>
-                    <p>Sobre o projeto</p>
-                    <ul>
-                        <li>Tecnologias</li>
-                    </ul>
-                    <img src="#" alt="Imagem do projeto">
+            <article class="projeto">
+              <h3>Pokedex</h3>
+              <p>
+                O projeto Pokedex é uma aplicação web em HTML, CSS e JavaScript que
+                exibe uma lista de Pokemons com detalhes como número, nome, tipos e
+                imagem. Ele permite a visualização progressiva dos Pokemons enquanto
+                o usuário navega na lista, com paginação simples. Desenvolvido com
+                HTML, CSS e JavaScript para fornecer uma experiência interativa de
+                visualização de Pokemons.
+              </p>
+              <h4>Tecnologias Usadas</h4>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+              <a href="https://joaovgomees.github.io/pokedex/" target="_blank"
+                >Acessar</a
+              >
+            </article>
+            <article class="projeto">
+              <h3>Bob's Clone</h3>
+              <p>
+                O Bob's Brasil é uma aplicação web em HTML, CSS e JavaScript que
+                exibe o cardápio da rede Bob's, permitindo aos usuários explorar os
+                itens disponíveis com imagens e descrições. Desenvolvido com
+                funcionalidades que garantem uma navegação fácil e responsividade em
+                diversos dispositivos.
+              </p>
+              <h4>Tecnologias Usadas</h4>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+              </ul>
+              <a href="https://bob-s-clone.vercel.app/" target="_blank">Acessar</a>
+            </article>
+            <article class="projeto">
+              <h3>Relógio Digital</h3>
+              <p>
+                O relógio digital é uma aplicação web simples que exibe a hora atual
+                do sistema em formato digital. Funciona através de um script
+                JavaScript que atualiza constantemente as horas, minutos e segundos
+                exibidos na interface do usuário. Os estilos visuais são definidos
+                no arquivo CSS. Ao abrir a página HTML, o script obtém a hora do
+                sistema e a exibe dinamicamente.
+              </p>
+              <h4>Tecnologias Usadas</h4>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+              <a href="https://joaovgomees.github.io/relogio/" target="_blank"
+                >Acessar</a
+              >
+            </article>
+            <article class="projeto">
+              <h3>Jogo da Velha</h3>
+              <p>
+                Este é um jogo da velha simples implementado em Python. Ele permite
+                que dois jogadores joguem alternadamente até que um deles vença ou o
+                jogo termine em empate. O jogo é executado no terminal e oferece a
+                opção de jogar novamente após cada partida.
+              </p>
+              <h4>Tecnologias Usadas</h4>
+              <ul>
+                <li>Python</li>
+              </ul>
+              <a href="https://github.com/JoaoVGomees/Jogo-da-velha" target="_blank"
+                >Acessar</a
+              >
+            </article>
+          </section>
+          <section id="tecnologias-section">
+            <h2>Tecnologias e habilidades</h2>
+            <p>Tecnologias que domino (ou quase)</p>
+            <ul id="tecnologias">
+              <li>
+                <img
+                  src="https://skillicons.dev/icons?i=python"
+                  alt="Logo Python"
+                />
+              </li>
+              <li>
+                <img src="https://skillicons.dev/icons?i=html" alt="Logo HTML" />
+              </li>
+              <li>
+                <img src="https://skillicons.dev/icons?i=css" alt="Logo CSS" />
+              </li>
+              <li>
+                <img
+                  src="https://skillicons.dev/icons?i=javascript"
+                  alt="Logo JavaScript"
+                />
+              </li>
+              <li>
+                <img
+                  src="https://skillicons.dev/icons?i=react"
+                  alt="Logo React"
+                />
+              </li>
+              <li>
+                <img src="https://skillicons.dev/icons?i=nodejs" alt="Logo Nodejs" />
+              </li>
+              <li>
+                <img src="https://skillicons.dev/icons?i=java" alt="Logo Java" />
+              </li>
+              <li>
+                <img src="https://skillicons.dev/icons?i=spring" alt="Logo Spring" />
+              </li>
+              <li>
+                <img src="https://skillicons.dev/icons?i=mysql" alt="Logo MySql" />
+              </li>
+              <li>
+                <img src="https://skillicons.dev/icons?i=git" alt="Logo Git" />
+              </li>
+              <li>
+                <img src="https://skillicons.dev/icons?i=figma" alt="Logo Figma" />
+              </li>
+            </ul>
+          </section>
+          <section id="contato-section">
+            <h2>Contato</h2>
+            <section id="contact-info">
+                <section class="zap">
+                    <a
+                        href="https://api.whatsapp.com/send?phone=5511961495575&text=&type=phone_number&app_absent=0"
+                        target="_blank"
+                    >
+                        <img
+                        src="src/images/icones/zap-icone.png"
+                        alt="Logo Whatsapp"
+                        height="17"
+                        />
+                        Whatsapp
+                    </a>
+                </section>
+        
+                <article id="email-article">
+                    <p>E-mail:</p>
+                    <p id="email">joaovitorsenac7817@gmail.com</p>
+                    <button onclick="copiarTexto()">
+                        <img
+                        src="./src/images/icones/copiar.png"
+                        alt="ícone de copiar"
+                        />Copiar E-mail
+                    </button>
+                    <!--Botão para copiar o email-->
                 </article>
             </section>
-        </section>
-        <section>
-            <p>Skills · Experiências</p>
-            <h2>Tecnologias e habilidades</h2>
-            <p>Tecnologias que domino</p>
-            <ul>
-                <li>Tecnologia que uso</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Contato</h2>
-            <article>
-                <a href="https://api.whatsapp.com/send?phone=5511961495575&text=&type=phone_number&app_absent=0" target="_blank">
-                    <img src="src/images/icones/telephone.png" alt="Logo Whatsapp" height="10"> Whatsapp
-                </a>
-                <article>
-                    <p>E-mail: </p> <!--Botão para copiar o email-->
-                </article>
-            </article>
-            <p>Voltar ao topo</p>
-        </section>
-    </main>
+            <a id="topo" href="#home-section">Voltar ao topo ↑</a>
+          </section>
+        </main>
+    </div>
     <footer>
-        <ul>
-            <li><a href="https://www.linkedin.com/in/joão-vitor-gomes-pereira-7bb079280" target="_blank"><img src="https://skillicons.dev/icons?i=linkedin" alt="Logo Linkedin" height="40"></a></li>
-            <li><a href="https://github.com/JoaoVGomees" target="_blank"><img src="https://skillicons.dev/icons?i=github" alt="Logo Github" height="40"></a></li>
-            <li><a href="https://www.instagram.com/__joao78/" target="_blank"><img src="https://skillicons.dev/icons?i=instagram" alt="Logo Instagram" height="40"></a></li>
-        </ul>
+      <ul>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/joão-vitor-gomes-pereira-7bb079280"
+            target="_blank"
+            ><img
+              src="https://skillicons.dev/icons?i=linkedin"
+              alt="Logo Linkedin"
+              height="30"
+          /></a>
+        </li>
+        <li>
+          <a href="https://github.com/JoaoVGomees" target="_blank"
+            ><img
+              src="https://skillicons.dev/icons?i=github"
+              alt="Logo Github"
+              height="30"
+          /></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/__joao78/" target="_blank"
+            ><img
+              src="https://skillicons.dev/icons?i=instagram"
+              alt="Logo Instagram"
+              height="30"
+          /></a>
+        </li>
+      </ul>
     </footer>
-</body>
+
+    <script src="./src/scripts/script.js"></script>
+  </body>
 </html>
