@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
     padding: 0;
@@ -8,6 +8,352 @@
     font-family: "Poppins", sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+    width: 100%;
+    height: 100vh;
+}
+
 body {
-    background-color: #090E16;
+    background-color: #090E16; 
+}
+
+#sem-footer {
+    max-width: 1200px; 
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+}
+
+h1, h2, h3, h4 {
+  font-family: "JetBrains Mono", monospace;
+  color: #FFF;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    color: #84868A;
+}
+
+#section-nav {
+    display: flex;
+    justify-content: center;
+}
+
+#section-nav  nav {
+    margin-top: 38px;
+    padding: 5px 20px;
+    width: 90%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #14142A; 
+}
+
+#section-nav  nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+#section-nav nav ul li a {
+    color: #898994;
+}
+
+#section-nav nav ul li a:hover {
+    color: #482F86;
+}
+
+#button-home-header {
+    font-weight: bold;
+}
+
+#sobre-mim-header {
+    padding: 50px 50px 200px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#sobre-mim-header #apresentacao {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#sobre-mim-header #apresentacao ul{
+    display: flex;
+    gap: 7px;
+}
+
+#sobre-mim-header #apresentacao img {
+    filter: grayscale(80%);
+}
+
+#sobre-mim-header #apresentacao img:hover {
+    filter: grayscale(0%);
+    transition: 0.7s  all ease;
+}
+
+#image-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#foto {
+    height: 400px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.4);
+}
+
+.zap a {
+    width: 120px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: #422C7C;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 15px;
+    border: 1px solid #422C7C;
+}
+
+.zap a:hover {
+    color: white;
+    background-color: #422C7C;
+}
+
+#sobre-mim-main {
+    padding: 50px 50px 140px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+#sobre-mim-main p {
+    width: 80%;
+    text-align: justify;
+}
+
+
+#projetos-section {
+    padding: 50px 50px 100px 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+#titulo h2 {
+    padding: 20px;
+}
+
+.projeto {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid #422C7C;
+    border-radius: 15px;
+}
+
+.projeto p {
+    text-align: justify;
+}
+
+.projeto ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+
+.projeto h4 {
+    margin-top: 9px;
+    font-size: 1.3rem;
+}
+
+.projeto li {
+    color: #7b4ae2;
+}
+
+.projeto a {
+    margin: 10px auto;
+    width: 40%;
+    text-align: center;
+    border-radius: 10px;
+    color: #66e4a1;
+    background-color: #2a7a52; 
+}
+
+.projeto a:hover {
+    color: #4ae290;
+    background-color: #349966;
+    transform: scale(1.02);
+}
+
+#tecnologias-section {
+    padding: 50px 50px 100px 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+#tecnologias-section h2{
+    padding: 20px;
+    text-align: center;
+}
+
+#tecnologias-section p{
+    padding: 20px;
+    text-align: center;
+}
+
+#tecnologias {
+    display: flex;
+    justify-content: center;
+    gap: 20px
+}
+
+#tecnologias img {
+    height: 50px;
+}
+
+#contato-section {
+    display: flex;
+    flex-direction: column;
+}
+
+#contato-section h2{
+    padding: 50px 20px 20px 20px;
+    text-align: center;
+}
+
+#contact-info {
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+#email-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+#email-article p {
+    text-align: center;
+}
+
+#email-article button {
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    gap: 4px;
+}
+
+#email-article button:hover {
+    background-color: #dbdbdb;
+}
+
+#topo {
+    display: block;
+    margin: 100px auto;
+    color: #84868A;
+}
+
+#topo:hover {
+    color: #FFF;
+}
+
+footer {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #14142A;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+@media screen and (max-width: 1400px) {
+
+    #projetos-section {
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+    }
+
+    .projeto {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #section-nav {
+        display: none;
+    }
+
+    #sobre-mim-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    #sobre-mim-header #apresentacao img {
+        filter: grayscale(0);
+    }
+
+    #sobre-mim-main img {
+        display: none;
+    }
+
+    #sobre-mim-main p {
+        text-align: justify;
+    }
+
+    #tecnologias {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        justify-content: center;
+    }
+
+    #tecnologias li {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+
+@media screen and (max-width: 500px) {
+    #projetos-section {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+
+    #contact-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
