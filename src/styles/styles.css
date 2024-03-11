@@ -123,11 +123,14 @@ p {
     font-weight: 600;
     border-radius: 15px;
     border: 1px solid #422C7C;
+    transition: all 200ms ease;
+
 }
 
 .zap a:hover {
     color: white;
     background-color: #422C7C;
+    transform: scale(1.02);
 }
 
 #sobre-mim-main {
@@ -156,7 +159,7 @@ p {
 }
 
 .projeto {
-    padding: 10px;
+    padding: 0 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -175,7 +178,7 @@ p {
     gap: 5px;
 }
 
-.projeto h4 {
+.projeto h4, h3 {
     margin-top: 9px;
     font-size: 1.3rem;
 }
@@ -184,13 +187,21 @@ p {
     color: #7b4ae2;
 }
 
+.projeto .teste {
+    height: 100%;
+    display: flex;
+    align-items: flex-end; 
+}
+
 .projeto a {
     margin: 10px auto;
     width: 40%;
     text-align: center;
+    align-items: flex-end;
     border-radius: 10px;
     color: #66e4a1;
     background-color: #2a7a52; 
+    transition: all 200ms ease;
 }
 
 .projeto a:hover {
