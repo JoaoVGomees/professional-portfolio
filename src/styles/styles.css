@@ -113,11 +113,13 @@ p {
 }
 
 .zap a {
+    height: 40px;
     width: 120px;
     padding: 8px;
     display: flex;
     align-items: center;
-    gap: 4px;
+    justify-content: center;
+    gap: 6px;
     color: #422C7C;
     font-size: 14px;
     font-weight: 600;
@@ -159,7 +161,7 @@ p {
 }
 
 .projeto {
-    padding: 0 10px;
+    padding: 5px 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -168,6 +170,7 @@ p {
 }
 
 .projeto p {
+    padding: 3px;
     text-align: justify;
 }
 
@@ -187,27 +190,29 @@ p {
     color: #7b4ae2;
 }
 
-.projeto .teste {
+.div-btn {
     height: 100%;
     display: flex;
     align-items: flex-end; 
 }
 
-.projeto a {
+.div-btn a {
     margin: 10px auto;
+    padding: 4px 0;
     width: 40%;
     text-align: center;
     align-items: flex-end;
     border-radius: 10px;
-    color: #66e4a1;
+    color: #FFF;
     background-color: #2a7a52; 
     transition: all 200ms ease;
 }
 
-.projeto a:hover {
-    color: #4ae290;
+.div-btn a:hover {
+    color: #FFF;
     background-color: #349966;
-    transform: scale(1.02);
+    transform: scale(1.04);
+    box-shadow: #ffffff37 0px 4px 10px 0px;
 }
 
 #tecnologias-section {
@@ -273,11 +278,14 @@ p {
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    gap: 4px;
+    gap: 10px;
+    transition: all 200ms ease;
 }
 
 #email-article button:hover {
-    background-color: #dbdbdb;
+    font-weight: 500;
+    background-color: #808080;
+    transform: scale(1.02);
 }
 
 #topo {
