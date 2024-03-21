@@ -181,13 +181,14 @@ p {
     gap: 5px;
 }
 
+.projeto li {
+    padding: 20px 0px;
+    color: #7b4ae2;
+}
+
 .projeto h4, h3 {
     margin-top: 9px;
     font-size: 1.3rem;
-}
-
-.projeto li {
-    color: #7b4ae2;
 }
 
 .div-btn {
@@ -204,15 +205,14 @@ p {
     align-items: flex-end;
     border-radius: 10px;
     color: #FFF;
-    background-color: #2a7a52; 
+    background-color: #422C7C; 
     transition: all 200ms ease;
 }
 
 .div-btn a:hover {
     color: #FFF;
-    background-color: #349966;
+    background-color: #31215a;
     transform: scale(1.04);
-    box-shadow: #ffffff37 0px 4px 10px 0px;
 }
 
 #tecnologias-section {
@@ -347,6 +347,16 @@ footer ul {
 
     #sobre-mim-main p {
         text-align: justify;
+    }
+
+    .div-btn {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div-btn a {
+        width: 60%;
     }
 
     #tecnologias {
