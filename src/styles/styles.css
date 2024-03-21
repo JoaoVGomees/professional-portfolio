@@ -349,6 +349,12 @@ footer ul {
         text-align: justify;
     }
 
+    #projetos-section {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+
     .div-btn {
         box-sizing: border-box;
         display: flex;
@@ -367,16 +373,6 @@ footer ul {
 
     #tecnologias li {
         display: flex;
-        justify-content: center;
-    }
-}
-
-
-
-@media screen and (max-width: 500px) {
-    #projetos-section {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
         justify-content: center;
     }
 
