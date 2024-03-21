@@ -91,11 +91,11 @@ p {
     gap: 7px;
 }
 
-#sobre-mim-header #apresentacao img {
+#apresentacao img {
     filter: grayscale(80%);
 }
 
-#sobre-mim-header #apresentacao img:hover {
+#apresentacao img:hover {
     filter: grayscale(0%);
     transition: 0.7s  all ease;
 }
@@ -328,6 +328,10 @@ footer ul {
 @media screen and (max-width: 768px) {
     #section-nav {
         display: none;
+    }
+
+    #apresentacao img {
+        filter: grayscale(0%);
     }
 
     #sobre-mim-header {
