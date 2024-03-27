@@ -63,10 +63,12 @@ p {
 
 #section-nav nav ul li a {
     color: #898994;
+    transition: all 0.3s ease;
 }
 
 #section-nav nav ul li a:hover {
     color: #482F86;
+    border-bottom: 1.5px solid #482F86;
 }
 
 #button-home-header {
@@ -292,10 +294,12 @@ p {
     display: block;
     margin: 100px auto;
     color: #84868A;
+    transition: all 0.3s ease;
 }
 
 #topo:hover {
     color: #FFF;
+    border-bottom: 1.5px solid #FFF;
 }
 
 footer {
